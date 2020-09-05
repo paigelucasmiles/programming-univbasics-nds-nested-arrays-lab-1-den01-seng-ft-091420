@@ -1,4 +1,3 @@
-require 'pry'
 # Examples inspired by U. S. National Organic Standards
 
 ORGANIC_PRODUCE = [
@@ -50,6 +49,5 @@ end
   # Return the updated matrix
 def matrix_update(matrix, row, column, new_value)
   matrix[row][column] = new_value
-  #binding.pry
   matrix
 end
